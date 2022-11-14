@@ -134,7 +134,7 @@ body {
 .work .project-inner:hover .project-links > *,
 .work .project-inner:hover svg {
   color: var(--dark-color);
-  transition: 1.1s;
+  transition: 0.7s;
 }
 .work p,
 .work li {
