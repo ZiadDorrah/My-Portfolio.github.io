@@ -71,7 +71,8 @@ body {
   overflow: hidden;
   border-radius: 4px;
 }
-.about .MyImg::before {
+/* Before & Hover */
+/* .about .MyImg::before {
   content: "";
   width: 224px;
   height: 300px;
@@ -83,7 +84,7 @@ body {
 }
 .about .MyImg:hover::before {
   transform: translateY(calc(-100%));
-}
+} */
 .about .heading {
   position: relative;
 }
