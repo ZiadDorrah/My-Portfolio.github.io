@@ -202,6 +202,10 @@ body {
 }
 /* Button Scroll */
 /* Start Footer */
+.footer {
+  width: 100%;
+  bottom: 0;
+}
 .footer p {
   color: var(--lessWhite-color);
 }
