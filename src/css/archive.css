@@ -1,0 +1,114 @@
+:root {
+  --dark-color: #0a192f;
+  --lessdark-color: #112240;
+  --green-color: #5ef0cf;
+  --white-color: #ccd6f6;
+  --lessWhite-color: #8892b0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Comforter", cursive; */
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+.section {
+  padding: 120px 0;
+}
+.tags {
+  color: var(--green-color);
+}
+.big-heading {
+  font-size: clamp(40px, 8vw, 80px);
+}
+/* Start Navbar */
+.navbar {
+  background-color: var(--dark-color);
+}
+.navbar .navbar-brand svg {
+  color: var(--green-color);
+  height: 40px;
+}
+.navbar .navbar-nav .nav-link {
+  color: var(--white-color);
+}
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--green-color);
+}
+.navbar .navbar-toggler {
+  color: var(--green-color);
+  font-size: 25px;
+  border-color: var(--white-color);
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--green-color);
+}
+/* End Navbar */
+/* Start Archive */
+.subtitle {
+  color: var(--green-color);
+  word-spacing: 0.9ch;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.atchive-table {
+  margin-top: 100px;
+}
+.atchive-table .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.atchive-table .table th {
+  color: var(--lessWhite-color);
+  font-weight: 400;
+  padding: 10px;
+  text-align: left;
+  vertical-align: inherit;
+}
+.atchive-table .table tbody {
+  position: relative;
+}
+.atchive-table .table .year {
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--green-color);
+}
+.atchive-table .table td.title {
+  color: var(--white-color);
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 20px;
+}
+.atchive-table .table .link a {
+  text-decoration: none;
+}
+.atchive-table .table .link i {
+  color: var(--lessWhite-color);
+  padding: 2px;
+  font-size: 20px;
+}
+/* End Archive */
+/* Start Media Query */
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+/* End Media Query */
