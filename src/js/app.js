@@ -1,3 +1,9 @@
+window.addEventListener("load", () => {
+  let reload = document.querySelector(".preloader");
+  setTimeout(() => {
+    reload.style.display = "none";
+  }, 2500);
+});
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 

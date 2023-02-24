@@ -1,6 +1,12 @@
 window.onload = function () {
   getrepos();
 };
+window.addEventListener("load", () => {
+  let reload = document.querySelector(".preloader");
+  setTimeout(() => {
+    reload.style.display = "none";
+  }, 2500);
+});
 function getrepos() {
   fetch("https://api.github.com/users/ZiadDorrah/repos")
     .then((response) => response.json())
