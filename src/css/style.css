@@ -20,13 +20,18 @@ body {
   z-index: 100;
 }
 .section {
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  margin: 150px 0;
 }
 .tags {
   color: var(--green-color);
 }
 .big-heading {
   font-size: clamp(40px, 8vw, 80px);
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
 }
 /* Start Navbar */
 .navbar {
@@ -70,12 +75,18 @@ body {
 /* End Navbar */
 /* Start Landing */
 .landing {
-  min-height: calc(100vh - 72px);
+  /* min-height: calc(100vh - 72px); */
 }
 /* End Landing */
 /* Start About */
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
 .about {
-  min-height: calc(100vh - 72px);
+  /* min-height: calc(100vh - 72px); */
 }
 .about p,
 .about li {
@@ -122,8 +133,13 @@ body {
 /* End Experience */
 /* Start Work */
 .work {
-  min-height: calc(100vh - 72px);
+  /* min-height: calc(100vh - 72px); */
 }
+/* When there is more Projects greater than 6  */
+/* .work .row > div:not(:nth-last-child(n+7)){
+  display: none;
+  transition: transform 0.25s ease-out;
+} */
 .work .heading {
   position: relative;
 }
@@ -188,10 +204,21 @@ body {
   position: absolute;
   bottom: 0px;
 }
+.work .main-btn {
+  color: var(--green-color);
+  border: 2px solid var(--green-color);
+  text-decoration: none;
+  padding: 1.25rem 1.75rem;
+}
+.work .main-btn:hover {
+  background-color: var(--green-color);
+  color: var(--dark-color);
+  transition: 0.7s;
+}
 /* End Work */
 /* Start Contact */
 .contact {
-  min-height: calc(100vh - 72px);
+  /* min-height: calc(100vh - 72px); */
 }
 .contact :nth-child(3) {
   color: var(--lessWhite-color);
