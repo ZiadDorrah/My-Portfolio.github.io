@@ -29,7 +29,7 @@ body {
 .big-heading {
   font-size: clamp(40px, 8vw, 80px);
 }
-.reveal.active{
+.reveal.active {
   transform: translateY(0px);
   opacity: 1;
 }
@@ -74,19 +74,13 @@ body {
 }
 /* End Navbar */
 /* Start Landing */
-.landing {
-  /* min-height: calc(100vh - 72px); */
-}
 /* End Landing */
 /* Start About */
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: all 2s ease;
-}
-.about {
-  /* min-height: calc(100vh - 72px); */
 }
 .about p,
 .about li {
@@ -132,14 +126,6 @@ body {
 /* Start Experience */
 /* End Experience */
 /* Start Work */
-.work {
-  /* min-height: calc(100vh - 72px); */
-}
-/* When there is more Projects greater than 6  */
-/* .work .row > div:not(:nth-last-child(n+7)){
-  display: none;
-  transition: transform 0.25s ease-out;
-} */
 .work .heading {
   position: relative;
 }
@@ -217,9 +203,6 @@ body {
 }
 /* End Work */
 /* Start Contact */
-.contact {
-  /* min-height: calc(100vh - 72px); */
-}
 .contact :nth-child(3) {
   color: var(--lessWhite-color);
   display: inline-block;
