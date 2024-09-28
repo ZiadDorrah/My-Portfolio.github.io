@@ -35,7 +35,8 @@ body {
 }
 /* Start Navbar */
 .navbar {
-  position: static !important;
+  position: sticky;
+  top: 0;
   background-color: var(--dark-color);
 }
 .navbar .navbar-brand svg {
